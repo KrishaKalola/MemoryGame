@@ -11,7 +11,7 @@
     background-image: url(./backgroundImg/bg4.jpg);
     box-sizing: content-box;
     width: 26.87em;
-    padding: 2.5em 3em;
+    padding: 2em 1.5em;
     position: absolute;
     transform: translate(-50%, -50%);
     left: 50%;
@@ -129,9 +129,9 @@
   .wrapper1{
     background-image: url(./backgroundImg/bg4.jpg);
       box-sizing: content-box;
-      width: 30em;
+      width: 25em;
       height: 80vh;
-      padding: 2.5em 3em;
+      padding: 2em 1.5em;
       border: 5px solid  #584a40;
       position: absolute;
       transform: translate(-50%, -50%);
