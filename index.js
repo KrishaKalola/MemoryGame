@@ -220,6 +220,7 @@ stopButton.addEventListener(
   (stopGame = () => {
     controls.classList.remove("hide");
     stopButton.classList.add("hide");
+    wrapper2.classList.add("hide");
     startButton.classList.remove("hide");
     clearInterval(interval);
   })
