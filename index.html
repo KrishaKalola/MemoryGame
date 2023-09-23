@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Memory Game</title>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="wrapper1">
+      <h1>Choose your fav!</h1>
+      <div class="chooseContainer hide img">
+        <button class="staitionary box" data-id="staitionary"onclick="audio.play()" ><img src="./staitionary/stationary.jpg"></button>
+        <button class="animals box" data-id="animals" onclick="audio.play()"><img src="./animals/animals.jpg"></button>
+        <button class="vegetables box" data-id="vegetables"  onclick="audio.play()" ><img src="./vegetables/vegetables.webp"></button>
+        <button class="alphabates box" data-id="alphabates"  onclick="audio.play()" ><img src="./alphabets/alphabets.webp"></button>
+      </div>
+      <div>
+        <button class="start2" id="start2" onclick="audio.play()" >Start</button>
+      </div>
+    </div>
+    <div class="wrapper2 hide">
+      <div class="stats-container">
+        <div id="moves-count"></div>
+        <div id="time"></div>
+      </div>
+      <div class="game-container"></div>
+      <button id="stop" class="hide" onclick="audio.play()">Stop Game</button>
+    </div>
+    <div class="controls-container">
+        <h1>Memory Game</h1>
+      <p id="result"></p>
+      <button id="start1" onclick="audio.play()">Start Game</button>
+    </div>
+    <script src="./index.js"></script>
+  </body>
+</html>
